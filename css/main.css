@@ -1,0 +1,1569 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Media Query 1 */
+@media only screen and (min-width: 1688px) {
+
+  /* Header */
+
+  .header {
+    background-image: url(../assets/pictures/niels.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+  }
+
+  #nav {
+    background-image: url(../assets/pictures/hero_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+  }
+
+  .nav {
+    width: 100%;
+    height: 100px;
+  }
+
+  .navWrapper {
+    width: 85%;
+    margin: auto;
+  }
+
+  .navWrapper img {
+    height: 150px;
+    padding-top: 10px;
+  }
+
+  .right {
+    padding-top: 75px;
+    float: right;
+  }
+
+  .right .menu {
+    display: none;
+  }
+
+  #homepage, #story, #despacito{
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 35px;
+    letter-spacing: 0.6px;
+  }
+
+  .headerWrapper {
+    padding-top: 235px;
+  }
+
+  .headerWrapper h1 {
+    font-size: 6vw;
+    font-weight: bold;
+    color: aqua;
+    text-align: center;
+    letter-spacing: 3.33px;
+    text-shadow: 2px 2px #000;
+  }
+
+  .navResponsive {
+    display: none;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    opacity: 0.95;
+    z-index: 1;
+    background-image: url(../assets/pictures/hero_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+  }
+
+  .storys {
+    margin-top: 150px;
+  }
+
+  .heads {
+    margin-top: 100px;
+  }
+
+  /* Eastereggs */
+
+  .noeastereggcss {
+    color: blue;
+  }
+
+  /* Timeline */
+
+  .timeline {
+    width: 100%;
+  }
+
+  .timelineWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 75px;
+  }
+
+  .timelineWrapper h3 {
+    font-size: 40px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .timelinegrid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-auto-rows: auto auto;
+    grid-gap: 2%;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .timelinegrid img {
+    width: 100%;
+  }
+
+  .timelinegrid p {
+    font-size: 30px;
+    color: #4A4A4A;
+  }
+
+  /* Story */
+
+  .story {
+    width: 100%;
+    background-image: url(../assets/pictures/background-story.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .storyWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 75px;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .storyWrapper h3 {
+    font-size: 100px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+    float: right;
+    position: relative;
+    right: 550px;
+    top: 190px;
+  }
+
+  .myStory {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: auto auto auto auto;
+    grid-gap: 0;
+  }
+
+  .text {
+    width: 150%;
+  }
+
+  .text img {
+    width: 25%;
+    margin-bottom: 30px;
+  }
+
+  .ondertitel {
+    font-size: 30px;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 40px
+  }
+
+  .subtitle {
+    font-size: 50px;
+    color: rgb(117, 63, 161);
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .ptext {
+    color: black;
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 40px;
+  }
+
+  .by {
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 40px;
+    display: inline;
+  }
+
+  .recensie {
+    color: black;
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 40px;
+    display: inline;
+  }
+
+  /* Despacito */
+
+  #despacitopage {
+    background-color: rgb(15, 39, 52);
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .videoWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 75px;
+  }
+
+  .videoGrid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+    grid-gap: 2%;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .videoGrid iframe {
+    height: 480px;
+    width: 854px;
+  }
+}
+
+
+/* Media Query 2 */
+@media only screen and (max-width: 1688px) and (min-width: 1540px) {
+  /* Header */
+
+  .header {
+    background-image: url(../assets/pictures/niels.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+  }
+
+  #nav {
+    background-image: url(../assets/pictures/hero_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+  }
+
+  .nav {
+    width: 100%;
+    height: 100px;
+  }
+
+  .navWrapper {
+    width: 85%;
+    margin: auto;
+  }
+
+  .navWrapper img {
+    height: 150px;
+    padding-top: 10px;
+  }
+
+  .right {
+    padding-top: 75px;
+    float: right;
+  }
+
+  .right .menu {
+    display: none;
+  }
+
+  #homepage, #story, #despacito{
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 35px;
+    letter-spacing: 0.6px;
+  }
+
+  .headerWrapper {
+    padding-top: 235px;
+  }
+
+  .headerWrapper h1 {
+    font-size: 6vw;
+    font-weight: bold;
+    color: aqua;
+    text-align: center;
+    letter-spacing: 3.33px;
+    text-shadow: 2px 2px #000;
+  }
+
+  .navResponsive {
+    display: none;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    background-image: url(../assets/pictures/hero_bg.jpg);
+    opacity: 0.95;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    height: 150px;
+  }
+
+  .storys {
+    margin-top: 150px;
+  }
+
+  .heads {
+    margin-top: 100px;
+  }
+
+  /* Eastereggs */
+
+  .noeastereggcss {
+    color: blue;
+  }
+
+  /* Timeline */
+
+  .timeline {
+    width: 100%;
+  }
+
+  .timelineWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 75px;
+  }
+
+  .timelineWrapper h3 {
+    font-size: 40px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .timelinegrid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-auto-rows: auto auto;
+    grid-gap: 2%;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .timelinegrid img {
+    width: 100%;
+  }
+
+  .timelinegrid p {
+    font-size: 30px;
+    color: #4A4A4A;
+  }
+
+  /* Story */
+
+  .story {
+    width: 100%;
+    background-image: url(../assets/pictures/background-story.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .storyWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 75px;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .storyWrapper h3 {
+    font-size: 100px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+    float: right;
+    position: relative;
+    right: 250px;
+    top: 190px;
+  }
+
+  .myStory {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto auto auto auto;
+    grid-gap: 0;
+  }
+
+  .text {
+    width: 150%;
+  }
+
+  .text img {
+    width: 40%;
+    margin-bottom: 30px;
+  }
+
+  .ondertitel {
+    font-size: 30px;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 40px
+  }
+
+  .subtitle {
+    font-size: 50px;
+    color: rgb(117, 63, 161);
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .ptext {
+    color: black;
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 40px;
+  }
+
+  .by {
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 40px;
+    display: inline;
+  }
+
+  .recensie {
+    color: black;
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 40px;
+    display: inline;
+  }
+
+  /* Despacito */
+
+  #despacitopage {
+    background-color: rgb(15, 39, 52);
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .videoWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 75px;
+  }
+
+  .videoGrid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+    grid-gap: 2%;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .videoGrid iframe {
+    height: 480px;
+    width: 854px;
+  }
+}
+
+/* Media Query 3 */
+@media only screen and (min-width:1300px) and (max-width: 1540px) {
+  /* Header */
+
+  .header {
+    background-image: url(../assets/pictures/niels.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+  }
+
+  #nav {
+    background-image: url(../assets/pictures/hero_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+  }
+
+  .nav {
+    width: 100%;
+    height: 100px;
+  }
+
+  .navWrapper {
+    width: 85%;
+    margin: auto;
+  }
+
+  .navWrapper img {
+    height: 150px;
+    padding-top: 10px;
+  }
+
+  .right {
+    padding-top: 75px;
+    float: right;
+  }
+
+  .right .menu {
+    display: none;
+  }
+
+  #homepage, #story, #despacito{
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 35px;
+    letter-spacing: 0.6px;
+  }
+
+  .headerWrapper {
+    padding-top: 235px;
+  }
+
+  .headerWrapper h1 {
+    font-size: 6vw;
+    font-weight: bold;
+    color: aqua;
+    text-align: center;
+    letter-spacing: 3.33px;
+    text-shadow: 2px 2px #000;
+  }
+
+  .navResponsive {
+    display: none;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    background-image: url(../assets/pictures/hero_bg.jpg);
+    opacity: 0.95;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    height: 150px;
+  }
+
+  .storys {
+    margin-top: 150px;
+  }
+
+  .heads {
+    margin-top: 100px;
+  }
+
+  /* Eastereggs */
+
+  .noeastereggcss {
+    color: blue;
+  }
+
+  /* Timeline */
+
+  .timeline {
+    width: 100%;
+  }
+
+  .timelineWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 75px;
+  }
+
+  .timelineWrapper h3 {
+    font-size: 40px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .timelinegrid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-auto-rows: auto auto;
+    grid-gap: 2%;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .timelinegrid img {
+    width: 100%;
+  }
+
+  .timelinegrid p {
+    font-size: 30px;
+    color: #4A4A4A;
+  }
+
+  /* Story */
+
+  .story {
+    width: 100%;
+    background-image: url(../assets/pictures/background-story.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .storyWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 75px;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .storyWrapper h3 {
+    font-size: 80px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+    float: right;
+    position: relative;
+    right: 280px;
+    top: 100px;
+  }
+
+  .myStory {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto auto auto auto;
+    grid-gap: 0;
+  }
+
+  .text {
+  }
+
+  .text img {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  .ondertitel {
+    font-size: 30px;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 40px
+  }
+
+  .subtitle {
+    font-size: 50px;
+    color: rgb(117, 63, 161);
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .ptext {
+    color: black;
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 40px;
+  }
+
+  .by {
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 40px;
+    display: inline;
+  }
+
+  .recensie {
+    color: black;
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 40px;
+    display: inline;
+  }
+
+  /* Despacito */
+
+  #despacitopage {
+    background-color: rgb(15, 39, 52);
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .videoWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 75px;
+  }
+
+  .videoGrid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+    grid-gap: 2%;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .videoGrid iframe {
+    height: 480px;
+    width: 854px;
+  }
+}
+
+/* Media Query 4 */
+@media only screen and (min-width: 1000px) and (max-width: 1024px) {
+  /* Header */
+
+  .header {
+    background-image: url(../assets/pictures/niels.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+  }
+
+  #nav {
+    background-image: url(../assets/pictures/hero_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+  }
+
+  .nav {
+    width: 100%;
+    height: 100px;
+  }
+
+  .navWrapper {
+    width: 85%;
+    margin: auto;
+  }
+
+  .navWrapper img {
+    height: 150px;
+    padding-top: 10px;
+  }
+
+  .right {
+    padding-top: 75px;
+    float: right;
+  }
+
+  .right .menu {
+    display: none;
+  }
+
+  #homepage, #story, #despacito{
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 35px;
+    letter-spacing: 0.6px;
+  }
+
+  .headerWrapper {
+    padding-top: 235px;
+  }
+
+  .headerWrapper h1 {
+    font-size: 6vw;
+    font-weight: bold;
+    color: aqua;
+    text-align: center;
+    letter-spacing: 3.33px;
+    text-shadow: 2px 2px #000;
+  }
+
+  .navResponsive {
+    display: none;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    background-image: url(../assets/pictures/hero_bg.jpg);
+    opacity: 0.95;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    height: 150px;
+  }
+
+  .storys {
+    margin-top: 150px;
+  }
+
+  .heads {
+    margin-top: 100px;
+  }
+
+  /* Eastereggs */
+
+  .noeastereggcss {
+    color: blue;
+  }
+
+  /* Timeline */
+
+  .timeline {
+    width: 100%;
+  }
+
+  .timelineWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 75px;
+  }
+
+  .timelineWrapper h3 {
+    font-size: 40px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .timelinegrid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-auto-rows: auto auto;
+    grid-gap: 2%;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .timelinegrid img {
+    width: 100%;
+  }
+
+  .timelinegrid p {
+    font-size: 30px;
+    color: #4A4A4A;
+  }
+
+  /* Story */
+
+  .story {
+    width: 100%;
+    background-image: url(../assets/pictures/background-story.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #story {
+    margin-top: 0;
+  }
+
+  .storyWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 75px;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .storyWrapper h3 {
+    font-size: 70px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .myStory {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto auto auto auto;
+    grid-gap: 0;
+  }
+
+  .text {
+  }
+
+  .text img {
+    width: 60%;
+    margin-bottom: 30px;
+  }
+
+  .ondertitel {
+    font-size: 35px;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 40px
+  }
+
+  .subtitle {
+    font-size: 55px;
+    color: rgb(117, 63, 161);
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .ptext {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  .by {
+    color: blue;
+    font-weight: bold;
+    font-size: 33px;
+    margin-bottom: 40px;
+    display: inline;
+  }
+
+  .recensie {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 40px;
+    display: inline;
+  }
+
+  /* Despacito */
+
+  #despacitopage {
+    background-color: rgb(15, 39, 52);
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .videoWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 75px;
+  }
+
+  .videoGrid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+    grid-gap: 2%;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .videoGrid iframe {
+    height: 480px;
+    width: 854px;
+  }
+}
+
+/* Media Query 5 */
+@media only screen and (min-width: 481px) and (max-width: 999px) {
+  /* Header */
+
+  .header {
+    background-image: url(../assets/pictures/niels.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+  }
+
+  #nav {
+    background-image: url(../assets/pictures/hero_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+  }
+
+  .nav {
+    width: 100%;
+    height: 100px;
+  }
+
+  .navWrapper {
+    width: 85%;
+    margin: auto;
+  }
+
+  .navWrapper img {
+    height: 120px;
+    padding-top: 10px;
+  }
+
+  .right {
+    padding-top: 75px;
+    float: right;
+  }
+
+  #homepage, #story, #despacito{
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 35px;
+    letter-spacing: 0.6px;
+    display: none;
+  }
+
+  .right .menu {
+    display: block;
+    height: 25px;
+  }
+
+  .headerWrapper {
+    padding-top: 235px;
+  }
+
+  .headerWrapper h1 {
+    font-size: 6vw;
+    font-weight: bold;
+    color: aqua;
+    text-align: center;
+    letter-spacing: 3.33px;
+    text-shadow: 2px 2px #000;
+  }
+
+  /* Responsive Nav */
+
+  .open {
+    display: block;
+  }
+
+  .close {
+    float: right;
+    margin: 1em 1em 0 0;
+  }
+
+  .closeIcon {
+    height: 20px;
+  }
+
+  .navResponsive {
+    width: 0;
+    overflow-y: hidden;
+    height: 100vh;
+    z-index: 1;
+    position: fixed;
+    background-color: white;
+    transition: 0.5s;
+    display: block;
+  }
+
+  .navResponsive a {
+    clear: right;
+    color: #4A4A4A;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    padding: 1em 0;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+  }
+
+  .navResponsive a:not(:first-child):hover {
+    color: #B2B2B2;
+  }
+
+  /* Eastereggs */
+
+  .noeastereggcss {
+    color: blue;
+  }
+
+  /* Timeline */
+
+  .timeline {
+    width: 100%;
+  }
+
+  .timelineWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 75px;
+  }
+
+  .timelineWrapper h3 {
+    font-size: 40px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .timelinegrid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-auto-rows: auto auto;
+    grid-gap: 2%;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .timelinegrid img {
+    width: 100%;
+  }
+
+  .timelinegrid p {
+    font-size: 30px;
+    color: #4A4A4A;
+  }
+
+  /* Story */
+
+  .story {
+    width: 100%;
+    background-image: url(../assets/pictures/background-story.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .storyWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 75px;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .storyWrapper h3 {
+    font-size: 60px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .myStory {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: auto auto auto auto;
+    grid-gap: 0;
+  }
+
+  .text {
+  }
+
+  .text img {
+    width: 70%;
+    margin-bottom: 30px;
+  }
+
+  .ondertitel {
+    font-size: 30px;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 40px
+  }
+
+  .subtitle {
+    font-size: 45px;
+    color: rgb(117, 63, 161);
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .ptext {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+
+  .by {
+    color: blue;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 40px;
+    display: inline;
+  }
+
+  .recensie {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 40px;
+    display: inline;
+  }
+
+  /* Despacito */
+
+  #despacitopage {
+    background-color: rgb(15, 39, 52);
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .videoWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 75px;
+  }
+
+  .videoGrid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+    grid-gap: 2%;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .videoGrid iframe {
+    height: 320px;
+    width: 569px;
+  }
+}
+
+/* Media Query 6 */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /* Header */
+
+  .header {
+    background-image: url(../assets/pictures/niels.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 75vh;
+    width: 100%;
+  }
+
+  #nav {
+    background-image: url(../assets/pictures/hero_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+  }
+
+  .nav {
+    width: 100%;
+    height: 100px;
+  }
+
+  .navWrapper {
+    width: 85%;
+    margin: auto;
+  }
+
+  .navWrapper img {
+    height: 120px;
+    padding-top: 10px;
+  }
+
+  .right {
+    padding-top: 75px;
+    float: right;
+  }
+
+  #homepage, #story, #despacito{
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 35px;
+    letter-spacing: 0.6px;
+    display: none;
+  }
+
+  .right .menu {
+    display: block;
+    height: 25px;
+  }
+
+  .headerWrapper {
+    padding-top: 235px;
+  }
+
+  .headerWrapper h1 {
+    font-size: 6vw;
+    font-weight: bold;
+    color: aqua;
+    text-align: center;
+    letter-spacing: 3.33px;
+    text-shadow: 2px 2px #000;
+  }
+
+  /* Responsive Nav */
+
+  .open {
+    display: block;
+  }
+
+  .close {
+    float: right;
+    margin: 1em 1em 0 0;
+  }
+
+  .closeIcon {
+    height: 20px;
+  }
+
+  .navResponsive {
+    width: 0;
+    overflow-y: hidden;
+    height: 100vh;
+    z-index: 1;
+    position: fixed;
+    background-color: white;
+    transition: 0.5s;
+    display: block;
+  }
+
+  .navResponsive a {
+    clear: right;
+    color: #4A4A4A;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    padding: 1em 0;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+  }
+
+  .navResponsive a:not(:first-child):hover {
+    color: #B2B2B2;
+  }
+
+  /* Eastereggs */
+
+  .noeastereggcss {
+    color: blue;
+  }
+
+  /* Timeline */
+
+  .timeline {
+    width: 100%;
+  }
+
+  .timelineWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 75px;
+  }
+
+  .timelineWrapper h3 {
+    font-size: 40px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .timelinegrid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-auto-rows: auto auto;
+    grid-gap: 2%;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .timelinegrid img {
+    width: 100%;
+  }
+
+  .timelinegrid p {
+    font-size: 20px;
+    color: #4A4A4A;
+  }
+
+
+  /* Story */
+
+  .story {
+    width: 100%;
+    background-image: url(../assets/pictures/background-story.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .storyWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 75px;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .storyWrapper h3 {
+    font-size: 50px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .myStory {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: auto auto auto auto;
+    grid-gap: 0;
+  }
+
+  .text {
+  }
+
+  .text img {
+    width: 70%;
+    margin-bottom: 30px;
+  }
+
+  .ondertitel {
+    font-size: 22px;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 40px
+  }
+
+  .subtitle {
+    font-size: 38px;
+    color: rgb(117, 63, 161);
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .ptext {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  .by {
+    color: blue;
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 40px;
+    display: inline;
+  }
+
+  .recensie {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 40px;
+    display: inline;
+  }
+
+  /* Despacito */
+
+  #despacitopage {
+    background-color: rgb(15, 39, 52);
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .videoWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 75px;
+  }
+
+  .videoGrid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+    grid-gap: 2%;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .videoGrid iframe {
+    height: 160px;
+    width: 285px;
+  }
+}
