@@ -18,5 +18,18 @@
     <div class="nav" id="nav">
     </div>
 
+    <div class="guestBook">
+      <div class="guestBookWrapper">
+        <h3>Guest Book</h3>
+        <div class="book">
+          <form action="guestbook.html" method="POST">
+            <input type="text" name="name" placeholder="Naam: " value=""><p />
+            <textarea name="message" placeholder="Bericht: " value=""></textarea><p />
+            <input type="image" name="createlist" src="./assets/pictures/add.png" alt="Maak lijst" height="50px">
+          </form>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
