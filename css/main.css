@@ -110,6 +110,10 @@ a {
     margin-top: 100px;
   }
 
+  .guestbooks {
+    margin-top: 100px;
+  }
+
   /* Eastereggs */
 
   .noeastereggcss {
@@ -240,6 +244,93 @@ a {
     margin-bottom: 40px;
     display: inline;
   }
+
+  /* Guest Book */
+
+  .guestBook {
+    width: 100%;
+    background-image: url(../assets/pictures/background-story.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .guestBookWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 75px;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .guestBookWrapper h3 {
+    font-size: 50px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+    float: left;
+    position: relative;
+    top: 10px;
+  }
+
+  .book {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-auto-rows: auto auto auto auto;
+    grid-gap: 0;
+    margin-top: 80px;
+  }
+
+  #name {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  #message {
+    font-size: 20px;
+    width: 243px;
+    height: 200px;
+  }
+
+  #submit {
+    height: 40px;
+  }
+
+  .message {
+    border-bottom: 5px solid black;
+  }
+
+  .messages {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: auto auto auto auto;
+    grid-gap: 0;
+    justify-content: center;
+  }
+
+  .naam {
+    font-size: 50px;
+    font-weight: bold;
+    display: inline;
+  }
+
+  .name {
+    display: inline;
+    font-size: 40px;
+  }
+
+  .bericht {
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .messageText {
+    font-size: 40px;
+  }
+
 
   /* Despacito */
 
@@ -781,7 +872,7 @@ a {
 }
 
 /* Media Query 4 */
-@media only screen and (min-width: 1000px) and (max-width: 1024px) {
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
   /* Header */
 
   .header {

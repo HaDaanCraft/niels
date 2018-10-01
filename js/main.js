@@ -69,12 +69,14 @@ $(document).ready(() => {
               $('.nav').addClass('sticky');
               $('.story').addClass('storys');
               $('.headerWrapper h1').addClass('heads');
+              $('.guestBook').addClass('guestbooks');
               // $('.story').css({'margin-top': '150px'});
               // $('.headerWrapper h1').css({'margin-top': '100px'});
           } else {
               $('.nav').removeClass('sticky');
               $('.story').removeClass('storys');
               $('.headerWrapper h1').removeClass('heads');
+              $('.guestBook').removeClass('guestbooks');
               // $('.headerWrapper h1').css({'margin-top': ''});
           }
       });
